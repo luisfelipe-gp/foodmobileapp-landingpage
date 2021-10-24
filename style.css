@@ -240,8 +240,7 @@ header button i {
   display: flex;
   text-align: center;
   text-transform: capitalize;
-  font-weight: bold;
-  margin-top: 60px;
+  margin-top: 50px;
 }
 
 .div-section-three .info-section-three .logos .apple {
@@ -257,7 +256,7 @@ header button i {
   margin-top: 0;
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
-  font-size: 60x;
+  font-size: 14px;
 }
 
 .div-section-three .info-section-three .logos .google {
@@ -273,7 +272,7 @@ header button i {
   margin-top: 0;
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
-  font-size: 16x;
+  font-size: 14px;
 }
 
 .div-section-three .info-section-three .logos img {
@@ -329,10 +328,17 @@ header button i {
 
 .div-section-three .app .info .info-title h3 {
   text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 20px;
 }
 
 .div-section-three .app .info .info-title p {
+  text-transform: capitalize;
   margin-top: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 13px;
 }
 
 .div-section-three .app .info .icons {
@@ -356,7 +362,7 @@ header button i {
 }
 
 .div-section-three .app .info .icons button img {
-  width: 35px;
+  width: 33px;
 }
 
 .div-section-three .app .food-section-one {
@@ -398,10 +404,15 @@ header button i {
   text-transform: uppercase;
   margin-top: 5px;
   margin-bottom: 12px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 14px;
 }
 
 .div-section-three .app .food-section-one .section-three-product .product-description p {
-  margin-top: 8px;
+  margin-top: 6px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
 
 .div-section-three .app .food-section-one .section-three-product .product-description .price {
@@ -467,10 +478,15 @@ header button i {
 
 .div-section-three .app .food-section-two .product .product-description h4 {
   text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 14px;
 }
 
 .div-section-three .app .food-section-two .product .product-description p {
   margin-top: 8px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
 
 .div-section-three .app .food-section-two .product .product-description .price {
@@ -529,7 +545,9 @@ footer {
 footer ul {
   list-style: none;
   text-align: center;
-  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
 }
 
 footer ul li {

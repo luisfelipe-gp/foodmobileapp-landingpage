@@ -222,9 +222,8 @@ header{
         .logos{
             display: flex;
             text-align: center;
-            text-transform: capitalize;
-            font-weight: bold;
-            margin-top: 60px;
+            text-transform: capitalize;            
+            margin-top: 50px;
 
 
             .apple{
@@ -238,7 +237,7 @@ header{
                     margin-top: 0;
                     font-family: 'Roboto', sans-serif;
                     font-weight: 900;
-                    font-size: 60x;
+                    font-size: 14px;
                 }
             }
 
@@ -253,7 +252,7 @@ header{
                     margin-top: 0;
                     font-family: 'Roboto', sans-serif;
                     font-weight: 900;
-                    font-size: 16x;
+                    font-size: 14px;
                 }
             }
 
@@ -307,11 +306,18 @@ header{
 
                 h3{
                     text-transform: uppercase;
+                    font-family: 'Roboto', sans-serif;
+                    font-weight: 900;
+                    font-size: 20px;
                 
                 }
 
                 p{
+                    text-transform: capitalize;
                     margin-top: 10px;
+                    font-family: 'Roboto', sans-serif;
+                    font-weight: 300;
+                    font-size: 13px;
                 }
             }
 
@@ -330,7 +336,7 @@ header{
                     padding: 5px;
 
                     img{
-                        width: 35px;
+                        width: 33px;
                     }
                 }
             }
@@ -365,10 +371,15 @@ header{
                         text-transform: uppercase;
                         margin-top: 5px;
                         margin-bottom: 12px;
+                        font-family: 'Roboto', sans-serif;
+                        font-weight: 900;
+                        font-size: 14px;
                     }
     
                     p{
-                        margin-top: 8px;
+                        margin-top: 6px;
+                        font-family: 'Roboto', sans-serif;
+                        font-weight: 300;
                     }
 
                     .price{
@@ -426,11 +437,16 @@ header{
         
                     h4{
                         text-transform: uppercase;
+                        font-family: 'Roboto', sans-serif;
+                        font-weight: 900;
+                        font-size: 14px;
                         
                     }
         
                     p{
                         margin-top: 8px;
+                        font-family: 'Roboto', sans-serif;
+                        font-weight: 300;
                     }
 
                     .price{
@@ -487,7 +503,9 @@ footer{
     ul{
         list-style: none;
         text-align: center;
-        font-size: 15px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
 
         li{
             text-transform: capitalize;
