@@ -19,8 +19,10 @@ header{
     justify-content: space-between;
 
     h1{
-        text-transform: uppercase;
-        font-size: 28px;
+        text-transform: capitalize;
+        font-size: 30px;
+        font-family: 'roboto', sans-serif;
+        font-weight: 600;
     }
 
     button{
@@ -57,6 +59,8 @@ header{
         font-size: 60px;
         margin-bottom: 50px;
         text-transform: uppercase;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
     }
 
     a{
@@ -124,10 +128,14 @@ header{
 
                 h4{
                     text-transform: uppercase;
+                    font-family: 'Raleway', sans-serif;
+                    font-weight: 900;
                 }
 
                 p{
                     margin-top: 7px;
+                    font-family: 'Roboto', sans-serif;
+                    font-weight: 300;
                 }
 
                 .price{

@@ -24,8 +24,10 @@ header {
 }
 
 header h1 {
-  text-transform: uppercase;
-  font-size: 28px;
+  text-transform: capitalize;
+  font-size: 30px;
+  font-family: 'roboto', sans-serif;
+  font-weight: 600;
 }
 
 header button {
@@ -65,6 +67,8 @@ header button i {
   font-size: 60px;
   margin-bottom: 50px;
   text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
 }
 
 .section-one a {
@@ -142,10 +146,14 @@ header button i {
 
 .section-two .div-section-two .section-two-product .product-description h4 {
   text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
 }
 
 .section-two .div-section-two .section-two-product .product-description p {
   margin-top: 7px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
 
 .section-two .div-section-two .section-two-product .product-description .price {
