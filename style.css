@@ -473,7 +473,7 @@ header button i {
 
 .div-section-three .app .food-section-two .product .product-description {
   font-size: 13px;
-  padding: 0 25px 10px 20px;
+  padding: 0 60px 10px 20px;
 }
 
 .div-section-three .app .food-section-two .product .product-description h4 {
@@ -495,7 +495,6 @@ header button i {
 
 .div-section-three .app .food-section-two .product .product-description button {
   float: right;
-  margin-right: 50px;
   border: none;
   background-color: black;
   padding: 5px;
