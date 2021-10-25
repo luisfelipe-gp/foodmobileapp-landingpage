@@ -1,0 +1,87 @@
+header{
+    display: flex;
+    justify-content: space-between;
+
+    h1{
+        text-transform: capitalize;
+        font-size: 23px;
+        font-family: 'roboto', sans-serif;
+        font-weight: 600;
+        color: rgb(31, 31, 31);
+    }
+
+    button{
+        border: none;
+        border-radius: 4px;
+        background-color: rgb(31, 31, 31);
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        padding: 8px;
+        float: right;
+
+        i{
+            font-size: 17px;
+            color: white;
+        }
+    }
+}
+
+.pizza-div{
+    width: fit-content;
+    overflow: hidden;
+    float: right;
+    margin-bottom: 190px;
+    margin-right: 50px;
+}
+
+.pizza-div img{
+    width: 480px;
+}
+
+.section-one{
+    margin-top: 100px;
+
+    h2{
+        color: rgb(31, 31, 31);
+        font-size: 60px;
+        margin-bottom: 50px;
+        text-transform: capitalize;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+    }
+
+    a{
+        cursor: default;
+        text-decoration: none;
+        color: rgb(247, 245, 245);
+        box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+        background-color: rgb(31, 31, 31);
+        border-radius: 5px;
+        display: inline-block;
+        font-size: 18px;
+        padding: 10px 30px;
+        text-transform: capitalize;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+    }
+
+    .div-food{
+        margin-top: 60px;
+
+       
+
+        .food-icon{
+            padding: 6px;
+            border: none;
+            background-color: rgb(255, 255, 255);
+            box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+            border-radius: 10px;
+            margin-right: 40px;
+
+            img{
+                width: 42px;
+            }
+
+            
+        }
+    }
+}

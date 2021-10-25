@@ -1,0 +1,85 @@
+.section-two{
+    clear: right;
+    display: flex;
+
+    .div-section-two{
+        display: flex;
+    
+        .section-two-product{
+            position: relative;
+            background-color: white;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            border-radius: 50px;
+            width: 280px;
+            height: 300px;
+            margin: 0 10px;
+            display: flex;
+            align-items: flex-end;
+        
+            img{
+                width: 270px;
+                position: absolute;
+                top: -90px;
+            }
+        
+            .product-description{
+                padding: 20px;
+                margin: 0 8px;
+
+                h4{
+                    text-transform: uppercase;
+                    font-family: 'roboto', sans-serif;
+                    font-weight: 900;
+                    font-size: 16px;
+                }
+
+                p{
+                    font-size: 14px;
+                    margin-top: 7px;
+                    font-family: 'Roboto', sans-serif;
+                    font-weight: 300;
+                }
+
+                .price{
+                    font-size: 16px;
+                    font-weight: bold;
+                }
+            
+                button{
+                    border: none;
+                    border-radius: 5px;
+                    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                    background-color: rgb(31, 31, 31);
+                    padding: 8px;
+                    float: right;
+
+                    i{
+                        font-size: 15px;
+                        color: white;
+                    }
+                }    
+            }            
+        }
+    }
+    .description{
+        padding-top: 50px;
+        margin: 0 60px;
+
+        h3{
+            text-transform: capitalize;
+            font-size: 35px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 900;
+            font-size: 16x;
+        }
+
+        p{
+            margin-top: 30px;
+            font-size: 15px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+            font-size: 15x;
+
+        }
+    }
+}
